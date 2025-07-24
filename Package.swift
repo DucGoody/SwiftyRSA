@@ -3,6 +3,9 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftyRSA",
+    platforms: [
+        .iOS(.v11)
+    ],
     products: [
         .library(
             name: "SwiftyRSA",
